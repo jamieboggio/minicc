@@ -2,6 +2,8 @@
 
 This is the minicc project.
 
+Note: This was initialized via `cmake-init` so yeah this may have some extraneous materials.
+
 # Building and installing
 
 See the [BUILDING](BUILDING.md) document.

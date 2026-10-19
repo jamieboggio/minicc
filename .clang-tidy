@@ -9,7 +9,9 @@ Checks: "-*,\
   misc-*,\
   portability-*,\
   openmp-*,\
-  readability-*"
+  readability-*,\
+  -readability-identifier-length, \
+  -readability-else-after-return"
 WarningsAsErrors: ''
 CheckOptions:
   - key: 'bugprone-argument-comment.StrictMode'
