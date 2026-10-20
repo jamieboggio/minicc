@@ -1,6 +1,4 @@
-cmake_minimum_required(VERSION 3.21)
-
-include(cmake/prelude.cmake)
+cmake_minimum_required(VERSION 3.23)
 
 project(
   minicc
@@ -10,7 +8,9 @@ project(
   LANGUAGES C
 )
 
-include(cmake/variables.cmake)
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
 
 # ---- Declare executable ----
 
@@ -27,22 +27,3 @@ target_include_directories(
   minicc_exe PRIVATE
   "${PROJECT_SOURCE_DIR}/include"
 )
-
-# ---- Install rules ----
-
-if(NOT CMAKE_SKIP_INSTALL_RULES)
-  include(cmake/install-rules.cmake)
-endif()
-
-# ---- Developer mode ----
-
-if(NOT minicc_DEVELOPER_MODE)
-  return()
-elseif(NOT PROJECT_IS_TOP_LEVEL)
-  message(
-    AUTHOR_WARNING
-    "Developer mode is intended for developers of minicc"
-  )
-endif()
-
-include(cmake/dev-mode.cmake)
