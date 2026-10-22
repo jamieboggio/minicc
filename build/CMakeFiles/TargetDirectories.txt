@@ -1,0 +1,3 @@
+/home/jrb/dev/minicc/build/CMakeFiles/minicc.dir
+/home/jrb/dev/minicc/build/CMakeFiles/edit_cache.dir
+/home/jrb/dev/minicc/build/CMakeFiles/rebuild_cache.dir

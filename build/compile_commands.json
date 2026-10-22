@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/jrb/dev/minicc/build",
+  "command": "/usr/bin/clang++ -I/home/jrb/dev/minicc/include -g -std=gnu++20 -o CMakeFiles/minicc.dir/src/main.cpp.o -c /home/jrb/dev/minicc/src/main.cpp",
+  "file": "/home/jrb/dev/minicc/src/main.cpp",
+  "output": "/home/jrb/dev/minicc/build/CMakeFiles/minicc.dir/src/main.cpp.o"
+}
+]

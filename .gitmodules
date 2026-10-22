@@ -1,0 +1,3 @@
+[submodule "tests/wacc-tests"]
+	path = tests/wacc-tests
+	url = git@github.com:nlsandler/writing-a-c-compiler-tests.git

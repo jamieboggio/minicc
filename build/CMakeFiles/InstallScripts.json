@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jrb/dev/minicc/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
